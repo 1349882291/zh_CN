@@ -1,19 +1,20 @@
 <table>
   <tr>
     <td>Language</td>
-    <td><a href="http://rpiwin10.github.io>English</a></td>
-      <td><a href="http://rpiwin10.github.io/zh_CN>简体中文</a></td>
+    <td><a href="http://rpiwin10.github.io">English</a></td>
+    <td><a href="http://rpiwin10.github.io/zh_CN">简体中文</a></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <th>需要的SD卡大小：</th>
+    <th>语言：</th>
     <th>32GB</th>
     <th>16GB</th>
   </tr>
   <tr>
-    <td><a href="https://pan.baidu.com/s/1O2q_mIRweJAYg-bUF0diCw">0.2</a>  |  <a href="https://pan.baidu.com/s/1A-hUnv2prE8PVZMf4MGIEw">0.3</a> </td>
+    <td>简体中文</td>
+    <td><a href="https://pan.baidu.com/s/1O2q_mIRweJAYg-bUF0diCw">0.2</a>  |  ><a href="https://pan.baidu.com/s/1A-hUnv2prE8PVZMf4MGIEw">0.3</a> </td>
     <td></td>
   </tr>
 </table>
