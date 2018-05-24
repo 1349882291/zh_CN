@@ -44,7 +44,7 @@ dism /image:E: /add-driver /driver:C:\Users\gloom\Downloads\rpi /forceunsigned
 <hr>
 ## 安装视频：
 
-<iframe src="//player.bilibili.com/player.html?aid=23793454&cid=39781297&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=23793454&cid=39781297&page=1"  width=100% height=100px scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 这里是所需要的命令
 ```
