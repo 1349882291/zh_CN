@@ -28,15 +28,14 @@ Discord:[https://discord.gg/gv2xEmN](https://discord.gg/gv2xEmN)<br>
 QQ 群:784419839
 <hr>
 
-## 驱动
+## 更新驱动
 <hr>
 
-E: 是你的SD卡上的Windows盘符
 ```
 git clone https://github.com/RpiWin10/Drivers.git 
 dism /image:[WindowsPath] /add-driver /driver:[driverPath] /forceunsigned
 ```
-例如：
+假设E: 是你的SD卡上的Windows盘符C:\Users\gloom\Downloads\rpi是你下载的驱动位置
 ```
 dism /image:E: /add-driver /driver:C:\Users\gloom\Downloads\rpi /forceunsigned
 ```
