@@ -1,37 +1,64 @@
-## Welcome to GitHub Pages
+<table>
+  <tr>
+    <td>Language</td>
+    <td><a href="http://rpiwin10.github.io>English</a></td>
+      <td><a href="http://rpiwin10.github.io/zh_CN>简体中文</a></td>
+  </tr>
+</table>
 
-You can use the [editor on GitHub](https://github.com/RpiWin10/zh_CN/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<table>
+  <tr>
+    <th>需要的SD卡大小：</th>
+    <th>32GB</th>
+    <th>16GB</th>
+  </tr>
+  <tr>
+    <td><a href="https://pan.baidu.com/s/1O2q_mIRweJAYg-bUF0diCw">0.2</a>  |  <a href="https://pan.baidu.com/s/1A-hUnv2prE8PVZMf4MGIEw">0.3</a> </td>
+    <td></td>
+  </tr>
+</table>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<hr>
+# 与我们讨论
+<hr>
+Discord:[https://discord.gg/gv2xEmN](https://discord.gg/gv2xEmN)<br>
+QQ 群:784419839
+<hr>
 
-```markdown
-Syntax highlighted code block
+## 驱动
+<hr>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+E: 是你的SD卡上的Windows盘符
+```
+git clone https://github.com/RpiWin10/Drivers.git 
+dism /image:[WindowsPath] /add-driver /driver:[driverPath] /forceunsigned
+```
+例如：
+```
+dism /image:E: /add-driver /driver:C:\Users\gloom\Downloads\rpi /forceunsigned
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<hr>
+## 安装视频：
 
-### Jekyll Themes
+<iframe src="//player.bilibili.com/player.html?aid=23793454&cid=39781297&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RpiWin10/zh_CN/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+这里是所需要的命令
+```
+dism /mount-image /imagefile:install.wim /Index:1 /MountDir:m
+dism /image:m /add-driver /driver:system32 /recurse /forceunsigned
+dism /unmount-wim /mountdir:m /commit
+dism /apply-image /imagefile:install.wim /index:1 /applydir:F:\
+bcdboot F:\Windows /s E: /f UEFI
+bcdedit /store E:\EFI\Microsoft\Boot\bcd /set {default} testsigning on
+bcdedit /store E:\EFI\Microsoft\Boot\bcd /set {default} nointegritychecks on
+```
 
-### Support or Contact
+非常感谢:
+- [USB 驱动](https://github.com/nta/dwusb)
+- [iot移植版本驱动](https://github.com/ms-iot/bsp)
+- UEFI 启动器: http://github.com/andreiw/RaspberryPiPkg
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
