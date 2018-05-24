@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <td>简体中文</td>
-    <td><a href="https://pan.baidu.com/s/1O2q_mIRweJAYg-bUF0diCw">0.2</a>  |  ><a href="https://pan.baidu.com/s/1A-hUnv2prE8PVZMf4MGIEw">0.3</a> </td>
+    <td><a href="https://pan.baidu.com/s/1O2q_mIRweJAYg-bUF0diCw">0.2</a>  |  <a href="https://pan.baidu.com/s/1A-hUnv2prE8PVZMf4MGIEw">0.3</a> </td>
     <td></td>
   </tr>
 </table>
