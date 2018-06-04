@@ -14,8 +14,8 @@
   </tr>
   <tr>
     <td>简体中文</td>
-    <td><a href="https://pan.baidu.com/s/1O2q_mIRweJAYg-bUF0diCw">0.2</a>  |  <a href="https://pan.baidu.com/s/1A-hUnv2prE8PVZMf4MGIEw">0.3</a>|<a href="http://rpiwin10.github.io/zh_CN/0.4.html">0.4</a> </td>
-    <td><a href="https://pan.baidu.com/s/1mg3mCQY2_0O6tg1-u4btTA">0.3</a>|<a href="http://rpiwin10.github.io/zh_CN/0.4.html">0.4</a></td>
+    <td><a href="https://pan.baidu.com/s/1O2q_mIRweJAYg-bUF0diCw">0.2</a>  |  <a href="https://pan.baidu.com/s/1A-hUnv2prE8PVZMf4MGIEw">0.3</a>|<a href="https://raw.githubusercontent.com/RpiWin10/zh_CN/master/0.4.html">0.4</a> </td>
+    <td><a href="https://pan.baidu.com/s/1mg3mCQY2_0O6tg1-u4btTA">0.3</a>|<a href="https://raw.githubusercontent.com/RpiWin10/zh_CN/master/0.4.html">0.4</a></td>
   </tr>
 </table>
 
